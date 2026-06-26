@@ -167,6 +167,7 @@ find. Record the pass: `## [YYYY-MM-DD] lint | <one-line summary>` in `log.md`.
 (BM25 + vector, CLI + MCP). Not installed by default — install it when you
 outgrow the index.
 
-## Notes
-This wiki is a git repo of markdown — commit meaningful ingest/lint passes.
-Co-evolve this schema with the human as you learn what works for this domain.
+## Language
+This wiki is bilingual — French and English. Sources, pages, and notes may be in
+either language. **Do not translate.** Write pages in the language of the source
+or the human's note; use the same language when updating that page later.

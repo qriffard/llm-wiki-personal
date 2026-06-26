@@ -6,7 +6,9 @@
 > scanning everything here. The LLM updates this on every ingest.
 
 ## Recently Active
-<!-- pages touched in the last few ingests — the freshest material -->
+- [[lfi-antisemitisme]] — analyse LFI / antiaméricanisme / antisémitisme (2026-06-26)
+- [[panorama-partis-antisemitisme]] — comparatif PS, LR, RN (2026-06-26)
+- [[distinction-israel-juifs-francais]] — concept clé (2026-06-26)
 
 ## Domain sub-indexes
 <!-- [[_index-<domain>]] — one-liner. Auto-created when a tag-cluster grows past ~8 pages. -->
@@ -15,13 +17,15 @@
 - [[overview]] — high-level summary and current thesis (create on first ingest)
 
 ## Sources
-<!-- one line per ingested source: [[source-slug]] — one-line summary (YYYY-MM-DD) -->
+- [[lfi-antisemitisme]] — Note personnelle : LFI, antiaméricanisme, complaisance envers l'antisémitisme (2026-06-26)
 
 ## Entities
-<!-- people, orgs, places, works: [[entity-slug]] — one-liner -->
+- [[lfi]] — La France Insoumise, parti de gauche radicale
+- [[people/jean-luc-melenchon]] — Fondateur et figure dominante de LFI
 
 ## Concepts
-<!-- ideas, themes, methods: [[concept-slug]] — one-liner -->
+- [[distinction-israel-juifs-francais]] — Distinction fondamentale : critique d'Israël ≠ antisémitisme
+- [[panorama-partis-antisemitisme]] — Comparatif systématique des partis français face à l'antisémitisme
 
 ## Tools & links
 <!-- pointer-mode bookmarks (not captured): <url> — one-liner [tags] -->
