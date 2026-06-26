@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui.md",
+                "file": "raw/Antisémitisme en France  où en est-on en 2024 ?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui"
+              "title": "Antisémitisme en France  où en est-on en 2024 ?"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui.md",
+                "file": "raw/Antisémitisme en France  où en est-on en 2024 ?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui"
+              "title": "Backlinks for Antisémitisme en France  où en est-on en 2024 ?"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui.md",
+                "file": "raw/Antisémitisme en France  où en est-on en 2024 ?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui"
+              "title": "Outgoing links from Antisémitisme en France  où en est-on en 2024 ?"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui.md",
+                "file": "raw/Antisémitisme en France  où en est-on en 2024 ?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui"
+              "title": "Outline of Antisémitisme en France  où en est-on en 2024 ?"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "5a4c1c2583357776",
   "lastOpenFiles": [
+    "raw/À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui.md",
+    "raw/Antisémitisme en France  où en est-on en 2024 ?.md",
     "wiki/people/romain-lemire.md",
     "wiki/people/eva-thomas.md",
     "wiki/people/eva-thomas.md.tmp.29787.052a42695713",
@@ -192,7 +194,6 @@
     "wiki/inceste-fait-social.md",
     "wiki/inceste-mediapart-juin2026.md",
     "raw/inceste-mediapart.fr.vtt",
-    "raw/inceste-mediapart.fr.vtt.part",
-    "raw/À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui.md"
+    "raw/inceste-mediapart.fr.vtt.part"
   ]
 }
