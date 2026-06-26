@@ -12,6 +12,13 @@ Note personnelle (conversation Claude). Pages créées : lfi-antisemitisme, lfi,
 ## [2026-06-26] ingest | « L'inceste n'est jamais de la sexualité » — Mediapart, juin 2026
 Vidéo YouTube (ZY7dKt4UwFU), émission À l'air libre, 1h16. Avec Camille Kouchner, Eva Thomas, Romain Lemire, Sarah Brethes. Transcript capturé dans raw/inceste-mediapart.fr.vtt. Pages créées : inceste-mediapart-juin2026, inceste-fait-social, people/camille-kouchner, people/eva-thomas, people/romain-lemire.
 
+## [2026-06-26] ingest | bulk × 3 — articles presse (Ipsos/CRIF, Mediapart, Le Monde)
+3 articles ajoutés dans raw/ par l'utilisateur.
+- ipsos-crif-antisemitisme-france-2024 (source primaire confirmant chiffres LFI 55% / RN 52%)
+- erner-france-culture-lfi-rn (affaire montage fallacieux France Culture)
+- unedic-mythe-chomeur-oisif-2026 (étude Unédic vs mythe politique)
+Mise à jour : panorama-partis-antisemitisme (données Ipsos intégrées). Seuil lint atteint (10 ingests).
+
 ## [2026-06-26] ingest | bulk × 5 — Mediapart playlist (parallel subagents)
 5 vidéos YouTube ingérées en parallèle. Transcripts VTT dans raw/video-*.fr.vtt.
 

@@ -2,13 +2,13 @@
 title: Panorama des partis français face à l'antisémitisme
 type: comparison
 date: 2026-06-26
-sources: 1
+sources: 2
 tags: [politique-française, antisémitisme, partis]
 ---
 
 # Panorama des partis français face à l'antisémitisme
 
-Source : [[lfi-antisemitisme]]. Analyse comparative issue d'une note personnelle (2026-06-26).
+Sources : [[lfi-antisemitisme]] (note personnelle) + [[ipsos-crif-antisemitisme-france-2024]] (Ipsos/CRIF, sept. 2024, n=1000 — **source primaire confirmée**)
 
 ## Tableau de synthèse
 
@@ -18,7 +18,7 @@ Source : [[lfi-antisemitisme]]. Analyse comparative issue d'une note personnelle
 | **Lutte antisémitisme** | Vide / déni agressif | Active mais incohérente | Instrumentalisée contre LFI | Cosmétique / transfert sur LFI |
 | **[[distinction-israel-juifs-francais\|Distinction Israël / Juifs]]** | Absente | Tentée mais incohérente | Absente | Absente |
 | **Cadre géopolitique** | Antiaméricanisme | Atlantisme | Atlantisme fort | Nationalisme identitaire |
-| **Antisémitisme dans la base** | ~55% (stéréotypes) | Moyen | Non mesuré | ~39% (stéréotypes) |
+| **Antisémitisme dans la base** | **55%** (6+ préjugés, +17 pts depuis 2020) | 29% (−7 pts) | 45% (−4 pts) | 52% (−10 pts) |
 
 ## Parti socialiste
 
@@ -38,7 +38,7 @@ Source : [[lfi-antisemitisme]]. Analyse comparative issue d'une note personnelle
 
 - Dédiabolisation réelle en surface (pro-Israël depuis 2011, Marine Le Pen)
 - Stratégie transparente : **retourner les accusations d'antisémitisme contre LFI** pour se blanchir
-- Données internes : 39% des sympathisants croient que « les Juifs ont trop de pouvoir dans l'économie ». Pas de travail pédagogique interne sur la Shoah.
+- Données Ipsos 2024 : 52% adhèrent à 6+ préjugés antisémites — mais en **baisse de 10 pts** depuis 2020 (vs LFI +17 pts). La dédiabolisation a des effets réels dans la base, même si elle reste superficielle en structure.
 - Moteur réel : islamophobie. Les Juifs sont des alliés utiles contre l'ennemi commun. Ce n'est pas du philosémitisme.
 - Aux législatives 2024 : ~100 candidats RN avec antécédents racistes ou antisémites.
 

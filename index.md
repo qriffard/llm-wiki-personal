@@ -6,6 +6,9 @@
 > scanning everything here. The LLM updates this on every ingest.
 
 ## Recently Active
+- [[ipsos-crif-antisemitisme-france-2024]] — SOURCE PRIMAIRE : 55% LFI / 52% RN adhèrent à 6+ préjugés antisémites (Ipsos, sept. 2024)
+- [[erner-france-culture-lfi-rn]] — montage fallacieux sur LFI/antisémitisme diffusé sur France Culture (juin 2026)
+- [[unedic-mythe-chomeur-oisif-2026]] — étude Unédic : 80% reprennent un emploi avant fin de droits ; mythe politique battu en brèche
 - [[affaire-lyhanna-justice-defaillante]] — justice pédocriminelle défaillante, rapport Darmanin secret (2026-06-26)
 - [[genocide-gaza-culturicide-mediapart-juin2026]] — génocide/culturicide Gaza, Slitine (2026-06-26)
 - [[financement-libyen-sarkozy-proces-appel]] — procès Sarkozy en appel, réquisitions 7 ans (2026-06-26)
@@ -21,6 +24,9 @@
 - [[overview]] — high-level summary and current thesis (create on first ingest)
 
 ## Sources
+- [[ipsos-crif-antisemitisme-france-2024]] — Ipsos/CRIF, sept. 2024 : sondage antisémitisme par parti (source primaire des chiffres LFI/RN)
+- [[erner-france-culture-lfi-rn]] — Mediapart, juin 2026 : montage fallacieux Erner sur LFI/RN/antisémitisme
+- [[unedic-mythe-chomeur-oisif-2026]] — Le Monde/Unédic, juin 2026 : mythe du chômeur oisif battu en brèche
 - [[affaire-lyhanna-justice-defaillante]] — Mediapart, juin 2026 : violences sexuelles enfants, justice défaillante (Bescond, Lefebvre)
 - [[genocide-gaza-culturicide-mediapart-juin2026]] — Mediapart, juin 2026 : génocide/culturicide Gaza (Slitine, Elassy, Ashour)
 - [[financement-libyen-sarkozy-proces-appel]] — Mediapart, mai 2026 : procès appel Sarkozy/Libye (Arfi)
