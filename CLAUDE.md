@@ -95,6 +95,14 @@ summarizing — the human should never have to download anything by hand:
   `raw/<slug>.md`. Record the original URL + access date in the page frontmatter.
 - **PDF** (URL or local) → download a URL to `raw/<slug>.pdf`; read it natively.
 - **Local file** → move/copy it into `raw/` if it isn't already there.
+- **EPUB (book)** → copy the original into `raw/<slug>.epub` (the immutable
+  capture). EPUB isn't natively readable, so also extract plain text for
+  reading/citation: `python3 .claude/scripts/epub-to-text.py raw/<slug>.epub
+  raw/<slug>.md` (stdlib-only — walks the OPF spine for reading order, no
+  pandoc/calibre needed). Record `source_url` if it came from a link, and
+  `version` as the edition/ISBN if known. Since a book is usually read over
+  multiple sessions, treat re-ingest as an update: append newly-read chapters'
+  takeaways to the existing page rather than re-summarizing from scratch.
 - **YouTube / video** → if `yt-dlp` is available, pull the transcript (`yt-dlp --write-auto-subs --skip-download --sub-format vtt <url>`) and save it as `raw/<slug>.txt`. If it isn't installed, ask the human whether to install it; if they decline, capture the watch page's title, channel, and description via `WebFetch` into `raw/<slug>.md` and note that no full transcript was captured.
 
 **Verify the capture before you trust it.** Confirm you actually got the content —
