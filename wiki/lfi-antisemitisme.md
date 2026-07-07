@@ -13,7 +13,7 @@ Note de synthèse personnelle issue d'une conversation avec Claude. Voir `raw/lf
 
 ## Thèse centrale
 
-[[lfi|LFI]] n'a pas de programme antisémite structurel, mais pratique une **complaisance systématique** envers l'antisémitisme. La cause racine : l'[[antiam éricanisme-prisme|antiaméricanisme comme prisme unique de lecture du monde]], qui crée une hiérarchie des oppressions — les peuples qui s'opposent à l'impérialisme américain sont protégés, les autres non.
+[[lfi|LFI]] n'a pas de programme antisémite structurel, mais pratique une **complaisance systématique** envers l'antisémitisme. La cause racine : l'[[antiamericanisme-prisme|antiaméricanisme comme prisme unique de lecture du monde]], qui crée une hiérarchie des oppressions — les peuples qui s'opposent à l'impérialisme américain sont protégés, les autres non.
 
 ## La logique cohérente
 
@@ -39,6 +39,13 @@ Voir [[distinction-israel-juifs-francais]].
 ## Panorama comparatif des partis
 
 Voir [[panorama-partis-antisemitisme]].
+
+## Cas concret : le cadrage "LFI antisémite / RN dédiabolisé" dans les médias
+
+Voir [[erner-france-culture-lfi-rn]] — un animateur de France Culture diffuse un
+montage fallacieux prêtant des propos antisémites à Mélenchon, puis s'en sert
+pour absoudre le RN de tout antisémitisme. Illustration concrète de comment ce
+cadrage circule et s'installe dans le service public.
 
 ## Position personnelle
 

@@ -2,6 +2,7 @@
 
 > ~500 tokens. Read first each session. Lossy — delete if stale.
 > Last refreshed: 2026-07-07
+> Domain sub-indexes: [[_index-antisemitisme]], [[_index-inceste]] (created 2026-07-07 lint)
 
 ## Active threads
 
@@ -22,4 +23,4 @@
 - Gaza : 72 centres culturels détruits — 72 000+ morts
 - Sarkozy : 7 ans requis / décision appel nov. 2026
 - Chômage : 80% reprennent emploi avant fin de droits — 18–22% avant même 1re allocation
-- 11 ingests effectués — **lint recommandé** (seuil atteint, en attente depuis le 10e)
+- Lint fait le 2026-07-07 (voir log.md). Prochain lint dû après 10 nouveaux ingests.

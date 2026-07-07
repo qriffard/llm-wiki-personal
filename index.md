@@ -19,50 +19,40 @@
 - [[lfi-antisemitisme]] — LFI / antiaméricanisme / antisémitisme (2026-06-26)
 
 ## Domain sub-indexes
-<!-- [[_index-<domain>]] — one-liner. Auto-created when a tag-cluster grows past ~8 pages. -->
+- [[_index-antisemitisme]] — 9 pages : LFI/RN/PS/LR face à l'antisémitisme, loi Yadan, sondage Ipsos/CRIF
+- [[_index-inceste]] — 9 pages : affaire Lyhanna, justice pédocriminelle, témoignages (Kouchner, Thomas, Lemire, Bescond)
 
 ## Overview
 - [[overview]] — high-level summary and current thesis (create on first ingest)
 
 ## Sources
 - [[valerie-masson-delmotte-changement-climatique]] — L'échappée (Mediapart), juillet 2026 : entretien Valérie Masson-Delmotte sur le changement climatique
-- [[ipsos-crif-antisemitisme-france-2024]] — Ipsos/CRIF, sept. 2024 : sondage antisémitisme par parti (source primaire des chiffres LFI/RN)
-- [[erner-france-culture-lfi-rn]] — Mediapart, juin 2026 : montage fallacieux Erner sur LFI/RN/antisémitisme
 - [[unedic-mythe-chomeur-oisif-2026]] — Le Monde/Unédic, juin 2026 : mythe du chômeur oisif battu en brèche
-- [[affaire-lyhanna-justice-defaillante]] — Mediapart, juin 2026 : violences sexuelles enfants, justice défaillante (Bescond, Lefebvre)
 - [[genocide-gaza-culturicide-mediapart-juin2026]] — Mediapart, juin 2026 : génocide/culturicide Gaza (Slitine, Elassy, Ashour)
 - [[financement-libyen-sarkozy-proces-appel]] — Mediapart, mai 2026 : procès appel Sarkozy/Libye (Arfi)
 - [[bollore-culture-alarme-mai2026]] — Mediapart, mai 2026 : Bolloré, cinéma/édition/médias (Springora, Sapiro)
-- [[loi-yadan-balibar-mediapart]] — Mediapart, avril 2026 : loi Yadan, Balibar
-- [[inceste-mediapart-juin2026]] — Mediapart, juin 2026 : Kouchner, Eva Thomas, Romain Lemire
-- [[lfi-antisemitisme]] — Note personnelle : LFI, antiaméricanisme, antisémitisme
+
+*Sources antisémitisme/inceste : voir [[_index-antisemitisme]] / [[_index-inceste]].*
 
 ## Entities
 - [[people/valerie-masson-delmotte]] — Climatologue CEA/GIEC/Haut Conseil pour le climat
 - [[people/nicolas-sarkozy]] — Ancien président, condamné dans 3 affaires ; procès libyen en appel 2026
 - [[people/vincent-bollore]] — Milliardaire, contrôle Canal+/UGC/Hachette/CNews
-- [[people/etienne-balibar]] — Philosophe, critique de la loi Yadan
 - [[people/fabrice-arfi]] — Journaliste Mediapart, co-révélateur affaire libyenne
 - [[people/gerald-darmanin]] — Ancien ministre, a caché rapport sur défaillance judiciaire pédocriminalité
-- [[people/andrea-bescond]] — Comédienne, survivante d'inceste, autrice des *Chatouilles*
 - [[people/marion-slitine]] — Anthropologue, concept de culturicide appliqué à Gaza
-- [[people/camille-kouchner]] — Autrice de *La Familia Grande*, déclencheuse de #MeTooInceste
-- [[people/eva-thomas]] — Pionnière du témoignage public sur l'inceste (1986)
-- [[people/romain-lemire]] — Auteur de *Clément*, Goncourt du premier roman 2026
 - [[lfi]] — La France Insoumise, parti de gauche radicale
 - [[people/jean-luc-melenchon]] — Fondateur et figure dominante de LFI
-- [[affaire-lyhanna]] — Lyhanna, 11 ans, tuée dans le Gers ; affaire déclencheuse du débat sur la justice
+
+*Personnes liées à l'antisémitisme/l'inceste : voir [[_index-antisemitisme]] / [[_index-inceste]].*
 
 ## Concepts
-- [[loi-yadan]] — PPL assimilant antisionisme et antisémitisme ; 700k pétitionnaires contre
 - [[culturicide]] — Destruction délibérée d'une culture comme composante du génocide (Gaza)
 - [[concentration-medias-france]] — Emprise Bolloré sur cinéma/édition/info ; autocensure structurelle
-- [[antisionisme-vs-antisemitisme]] — Distinction juridique et politique fondamentale
-- [[justice-pedocriminalite-france]] — 70% classements sans suite ; rapport Darmanin secret 2022
 - [[affaire-libyenne]] — Financement Kadhafi → campagne Sarkozy 2007 ; décision appel nov. 2026
-- [[inceste-fait-social]] — L'inceste n'est pas une déviance individuelle mais un fait social structurel
-- [[distinction-israel-juifs-francais]] — Critiquer Israël ≠ antisémitisme
-- [[panorama-partis-antisemitisme]] — Comparatif PS, LR, RN, LFI
+- [[antiamericanisme-prisme]] — Grille de lecture géopolitique qui hiérarchise les causes ; cadre structurant de [[lfi]]
+
+*Concepts liés à l'antisémitisme/l'inceste : voir [[_index-antisemitisme]] / [[_index-inceste]].*
 
 ## Tools & links
 <!-- pointer-mode bookmarks (not captured): <url> — one-liner [tags] -->

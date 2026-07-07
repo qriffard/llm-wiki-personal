@@ -38,3 +38,18 @@ transcrit localement avec whisper.cpp (large-v3-turbo). Capture dans
 d'ingest podcast ajoutée à ce cycle : `.claude/scripts/extract-podcast.py`
 (résout Apple Podcasts/RSS/audio direct, transcript officiel si publié sinon
 whisper.cpp) — voir CLAUDE.md. Pages créées : valerie-masson-delmotte-changement-climatique, people/valerie-masson-delmotte.
+
+## [2026-07-07] lint | 33 pages auditées, 2 domaines promus, 3 liens cassés/manquants corrigés
+Premier lint du wiki (seuil de 10 ingests dépassé depuis le 10e ingest, jamais fait avant). Périmètre : 33 pages `wiki/`, frontmatter, liens entrants/sortants, tags, captures.
+
+- **Domaines promus** (tag-clusters > 8 pages) : [[_index-antisemitisme]] (9 pages) et [[_index-inceste]] (9 pages) créés, liés depuis `index.md`. `index.md` allégé — ces deux domaines ne sont plus énumérés à plat dans Sources/Entities/Concepts.
+- **Tag `politique-française` (18/33 pages) non promu** : trop générique pour être un domaine cohérent (recouvre LFI, Sarkozy, Bolloré, justice...). À reconsidérer : soit un tag de filtrage annexe, soit à décomposer en tags plus spécifiques lors d'un prochain lint.
+- **Tag `justice` (8 pages) non promu** : recoupe entièrement les domaines inceste/pédocriminalité et corruption/Sarkozy déjà couverts autrement — pas un cluster indépendant.
+- **Concept manquant créé** : [[antiamericanisme-prisme]] — référencé par deux pages ([[lfi]], [[lfi-antisemitisme]]) sans jamais avoir été écrit ; un des deux liens avait même une faute de frappe (espace parasite dans le slug). Page créée, les deux liens corrigés.
+- **Orphelin corrigé** : [[erner-france-culture-lfi-rn]] n'était référencé que depuis `index.md`, jamais depuis une autre page de contenu — ajout d'un renvoi croisé depuis [[lfi-antisemitisme]] (cas concret du cadrage « LFI antisémite / RN dédiabolisé »).
+- **Orphelin accepté tel quel** : [[unedic-mythe-chomeur-oisif-2026]] — seul source sur le chômage, aucune page connexe à lier pour l'instant.
+- **Affirmation obsolète corrigée** : `lfi.md` indiquait « 55% ... à vérifier avec source primaire » — la source primaire ([[ipsos-crif-antisemitisme-france-2024]]) confirme ce chiffre depuis l'ingest du 26/06 ; mention et lien mis à jour.
+- **Captures `pending`/`failed`** : aucune trouvée, rien à relancer.
+- **`_hot.md`** : rafraîchi, flag de lint levé.
+
+Pistes pour la suite : décomposer `politique-française` en tags plus fins ; envisager une page overview.md de synthèse (jamais créée depuis le bootstrap) maintenant que le wiki a une taille significative (33 pages, 4 domaines thématiques).

@@ -12,7 +12,7 @@ Parti de gauche radicale française, fondé et dominé par [[jean-luc-melenchon|
 
 ## Cadre idéologique
 
-Fonctionne sur un prisme central : l'**[[antiaméricanisme-prisme|antiaméricanisme]]**. Ce cadre structure toutes les positions géopolitiques et crée une hiérarchie implicite des causes à défendre.
+Fonctionne sur un prisme central : l'**[[antiamericanisme-prisme|antiaméricanisme]]**. Ce cadre structure toutes les positions géopolitiques et crée une hiérarchie implicite des causes à défendre.
 
 ## Positions clés (2023-2025)
 
@@ -27,7 +27,7 @@ Complaisance systématique envers l'antisémitisme — non par programme structu
 
 ## Antisémitisme dans la base
 
-55% des sympathisants LFI croient à des stéréotypes antijuifs (chiffre cité dans l'analyse — à vérifier avec source primaire).
+55% des sympathisants LFI adhèrent à 6+ préjugés antisémites (+17 pts depuis 2020) — chiffre confirmé par la source primaire [[ipsos-crif-antisemitisme-france-2024]] (Ipsos/CRIF, sept. 2024).
 
 ## Après Mélenchon
 
@@ -36,5 +36,7 @@ Question ouverte. Le cadre mélancaniste/bolivarien est très ancré dans la dir
 ## Liens
 
 - [[jean-luc-melenchon]] — fondateur et figure dominante
+- [[antiamericanisme-prisme]] — le cadre géopolitique structurant
 - [[lfi-antisemitisme]] — analyse de la complaisance envers l'antisémitisme
 - [[panorama-partis-antisemitisme]] — comparaison avec PS, LR, RN
+- [[ipsos-crif-antisemitisme-france-2024]] — source primaire des chiffres
