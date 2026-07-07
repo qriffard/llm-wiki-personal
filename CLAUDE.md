@@ -104,6 +104,17 @@ summarizing — the human should never have to download anything by hand:
   multiple sessions, treat re-ingest as an update: append newly-read chapters'
   takeaways to the existing page rather than re-summarizing from scratch.
 - **YouTube / video** → if `yt-dlp` is available, pull the transcript (`yt-dlp --write-auto-subs --skip-download --sub-format vtt <url>`) and save it as `raw/<slug>.txt`. If it isn't installed, ask the human whether to install it; if they decline, capture the watch page's title, channel, and description via `WebFetch` into `raw/<slug>.md` and note that no full transcript was captured.
+- **Podcast** → `python3 .claude/scripts/extract-podcast.py <url> raw/<slug>.md`.
+  Accepts an Apple Podcasts episode link, a direct RSS feed URL, or a direct
+  audio URL. Uses the show's official transcript when the feed publishes one
+  (Podcasting 2.0 `podcast:transcript`); otherwise downloads the audio and
+  transcribes it locally with whisper.cpp (`brew install ffmpeg whisper-cpp` —
+  the ggml model auto-downloads once, ~1.5GB, and is cached in
+  `~/.cache/whisper-cpp/` for reuse). If those tools aren't installed, ask the
+  human whether to install them; if they decline, capture just the episode
+  title/show/description via `WebFetch` into `raw/<slug>.md` and note that no
+  transcript was captured. Spotify-only episodes aren't supported — ask for
+  the Apple Podcasts or RSS link instead.
 
 **Verify the capture before you trust it.** Confirm you actually got the content —
 non-empty, the expected document, not an auth wall / error page / truncated or

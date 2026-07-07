@@ -29,3 +29,12 @@ Mise à jour : panorama-partis-antisemitisme (données Ipsos intégrées). Seuil
 - **35vwVsWyu50** → loi-yadan-balibar-mediapart (loi Yadan, Balibar)
 
 Reconciliation : 7 entity pages (nicolas-sarkozy, vincent-bollore, etienne-balibar, fabrice-arfi, gerald-darmanin, andrea-bescond, marion-slitine) + affaire-lyhanna + 5 concept pages (loi-yadan, culturicide, concentration-medias-france, antisionisme-vs-antisemitisme, justice-pedocriminalite-france, affaire-libyenne).
+
+## [2026-07-07] ingest | Valérie Masson-Delmotte explique le changement climatique
+Podcast L'échappée (Mediapart), épisode du 2026-07-06, 68 min. Pas de
+transcript officiel dans le flux RSS (`podcast:transcript` absent) →
+transcrit localement avec whisper.cpp (large-v3-turbo). Capture dans
+`raw/valerie-masson-delmotte-changement-climatique.md`. Nouvelle capacité
+d'ingest podcast ajoutée à ce cycle : `.claude/scripts/extract-podcast.py`
+(résout Apple Podcasts/RSS/audio direct, transcript officiel si publié sinon
+whisper.cpp) — voir CLAUDE.md. Pages créées : valerie-masson-delmotte-changement-climatique, people/valerie-masson-delmotte.
