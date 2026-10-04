@@ -1,3 +1,4 @@
 # log.md is append-only and edited from multiple machines — union-merge keeps
 # both sides' entries instead of producing a conflict.
 log.md merge=union
+brain/log.md merge=union

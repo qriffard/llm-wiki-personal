@@ -1,0 +1,81 @@
+{
+  "sources": {
+    "_raw/_archived/video-fNsTyraIa9A.fr.vtt": {
+      "content_hash": "90c63440e9c180228d72ea3642ce1ffedd3b1bc3ff1763c0b7b100d9875400d2",
+      "last_ingested": "2026-10-04T20:16:52.556235+00:00",
+      "pages_produced": [
+        "references/affaire-lyhanna-justice-defaillante.md"
+      ]
+    },
+    "_raw/_archived/video-3J4k1YVuFLA.fr.vtt": {
+      "content_hash": "132a7f1454674ac33e4595c81c0251362c531bffdc93938806e70dee4d389b80",
+      "last_ingested": "2026-10-04T20:16:52.639138+00:00",
+      "pages_produced": [
+        "references/bollore-culture-alarme-mai2026.md"
+      ]
+    },
+    "_raw/_archived/À France Culture, Guillaume Erner absout le RN sur l’antisémitisme et fait l’unanimité contre lui.md": {
+      "content_hash": "b7bd1ad6a3d8ea4ec9aedd7332477e73c96d65898b8dbbadd0fea725f0e23fe0",
+      "last_ingested": "2026-10-04T20:16:52.869876+00:00",
+      "pages_produced": [
+        "references/erner-france-culture-lfi-rn.md"
+      ]
+    },
+    "_raw/_archived/video-Hmo08c2dgM4.fr.vtt": {
+      "content_hash": "e4a18b84d4864900f95e20085871c28f8ad02901ceaba65999b611243290e70f",
+      "last_ingested": "2026-10-04T20:16:52.948886+00:00",
+      "pages_produced": [
+        "references/financement-libyen-sarkozy-proces-appel.md"
+      ]
+    },
+    "_raw/_archived/video-YibxgFFPuSM.fr.vtt": {
+      "content_hash": "3582387103d1052b86192c28b109db4766a27b4751edf383017277869e03bd1b",
+      "last_ingested": "2026-10-04T20:16:53.033755+00:00",
+      "pages_produced": [
+        "references/genocide-gaza-culturicide-mediapart-juin2026.md"
+      ]
+    },
+    "_raw/_archived/inceste-mediapart.fr.vtt": {
+      "content_hash": "2fdc8b2ff34a0c40fc40d472dad444709f906a44c52c6b8b77b18f7a8a860761",
+      "last_ingested": "2026-10-04T20:16:53.109693+00:00",
+      "pages_produced": [
+        "references/inceste-mediapart-juin2026.md"
+      ]
+    },
+    "_raw/_archived/Antisémitisme en France  où en est-on en 2024 ?.md": {
+      "content_hash": "3ef6abd276a3e8376dfcf788bc3167fb494dce1921b791c4d198ab42fb1cdc80",
+      "last_ingested": "2026-10-04T20:16:53.398762+00:00",
+      "pages_produced": [
+        "references/ipsos-crif-antisemitisme-france-2024.md"
+      ]
+    },
+    "_raw/_archived/lfi_antisemitisme.md": {
+      "content_hash": "f19b516cb221e4c665550c129437d19e04a3bd3c3bd70e42c0331c330f8be1f4",
+      "last_ingested": "2026-10-04T20:16:53.566738+00:00",
+      "pages_produced": [
+        "references/lfi-antisemitisme.md"
+      ]
+    },
+    "_raw/_archived/video-35vwVsWyu50.fr.vtt": {
+      "content_hash": "8baddf3058b10358e11df6543affa74472b113faf9f4debf83d7bfbd1d19208a",
+      "last_ingested": "2026-10-04T20:16:53.649998+00:00",
+      "pages_produced": [
+        "references/loi-yadan-balibar-mediapart.md"
+      ]
+    },
+    "_raw/_archived/Le mythe du « chômeur oisif » battu en brèche par une étude de l’Unédic.md": {
+      "content_hash": "1e5dbf3ef2d6301ca8abfe64f40aac2615ff8edd9e8797805b062e72f4e317d6",
+      "last_ingested": "2026-10-04T20:16:53.817837+00:00",
+      "pages_produced": [
+        "references/unedic-mythe-chomeur-oisif-2026.md"
+      ]
+    },
+    "_raw/_archived/valerie-masson-delmotte-changement-climatique.md": {
+      "content_hash": "0b9d90af812eb48e1c15f46a44ceda7861349bae4a4abf70398e16730cda6825",
+      "last_ingested": "2026-10-04T20:16:53.980831+00:00",
+      "pages_produced": [
+        "references/valerie-masson-delmotte-changement-climatique.md"
+      ]
+    }
+  }
+}
