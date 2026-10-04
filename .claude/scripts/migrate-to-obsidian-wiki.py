@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """One-off migration of this LLM Wiki to an Ar9av/obsidian-wiki vault.
 
+Ran once on 2026-10-04 against commit ce821ab (the old top-level wiki/,
+raw/, index.md… were removed afterwards). Kept for the record.
+
 Usage:
     python3 .claude/scripts/migrate-to-obsidian-wiki.py <vault-dir>          # dry run
     python3 .claude/scripts/migrate-to-obsidian-wiki.py <vault-dir> --apply  # write

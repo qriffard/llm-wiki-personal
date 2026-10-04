@@ -1,26 +1,23 @@
 #!/usr/bin/env bash
 # SessionStart hook: nudge when a lint (health-check) pass is overdue.
-# Counts `ingest` log entries since the last `lint` entry; if past the
+# Counts ingest-type entries in brain/log.md since the last LINT entry; past the
 # threshold it prints a notice, which Claude Code adds to the session context.
-# A lint is a reasoning pass — this hook only DETECTS and REMINDS; Claude runs
-# the actual pass per CLAUDE.md → Operations → Lint.
+# This hook only DETECTS and REMINDS; the pass itself is `/wiki-lint`.
 set -uo pipefail
 
-cd "${CLAUDE_PROJECT_DIR:-$PWD}" || exit 0
-[ -f log.md ] || exit 0
+LOG="${CLAUDE_PROJECT_DIR:-$PWD}/brain/log.md"
+[ -f "$LOG" ] || exit 0
 
 THRESHOLD=10
 
-# Log entries look like:  ## [YYYY-MM-DD] ingest | ...   /   ## [YYYY-MM-DD] lint | ...
-last_lint=$(grep -n '^## \[.*\] lint ' log.md | tail -1 | cut -d: -f1)
-if [ -n "${last_lint:-}" ]; then
-  ingests=$(tail -n +"$((last_lint + 1))" log.md | grep -c '^## \[.*\] ingest ')
-else
-  ingests=$(grep -c '^## \[.*\] ingest ' log.md)
-fi
+# obsidian-wiki log lines look like:  - [2026-10-04T19:55:52Z] INGEST source=...
+#                                      - [2026-10-04T20:10:00Z] LINT issues_found=...
+last_lint=$(grep -n '^- \[[^]]*\] LINT\b' "$LOG" | tail -1 | cut -d: -f1)
+ingests=$(tail -n +"$(( ${last_lint:-0} + 1 ))" "$LOG" \
+  | grep -cE '^- \[[^]]*\] ([A-Z_]*INGEST|CAPTURE|IMPORT|WIKI_UPDATE)\b')
 
 if [ "${ingests:-0}" -ge "$THRESHOLD" ]; then
-  echo "⚠️ Lint due: ${ingests} ingests since the last health check. Run a lint pass (CLAUDE.md → Operations → Lint) before continuing, then log it as a 'lint' entry."
+  echo "⚠️ Lint due: ${ingests} ingests since the last health check. Run /wiki-lint on brain/ before continuing."
 fi
 
 exit 0
