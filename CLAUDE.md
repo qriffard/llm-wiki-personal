@@ -15,8 +15,12 @@ Two top-level directories:
   no employer content, frontmatter extensions, categories, ingest rules) and
   overrides framework defaults.
 - Use the framework's skills (`/wiki-ingest`, `/wiki-capture`, `/wiki-query`,
-  `/wiki-lint`, `/wiki-status`, …). They need the vault configured once per
-  machine: `pip install obsidian-wiki && obsidian-wiki setup --vault <repo>/brain`.
+  `/wiki-lint`, `/wiki-status`, …). The SessionStart hook
+  `.claude/hooks/setup-obsidian-wiki.sh` installs (cloud only) and configures
+  the framework, checks the vault with `doctor` + `lint`, and injects the vault
+  recap. On a laptop, install once: `pip install obsidian-wiki`. The framework's
+  own session hooks are deliberately not registered (no auto-capture into
+  `brain/`).
 - Every page lives in a category folder (`concepts/`, `entities/`,
   `references/`, `synthesis/`, …) with frontmatter `title, category, tags,
   sources, summary, created, updated`. Link with path-qualified wikilinks:

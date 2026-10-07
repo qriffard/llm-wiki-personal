@@ -7,7 +7,7 @@
             "type": "command",
             "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/sync-wiki.sh\" stop",
             "async": true,
-            "statusMessage": "Syncing wiki…"
+            "statusMessage": "Syncing wiki\u2026"
           }
         ]
       }
@@ -18,6 +18,11 @@
           {
             "type": "command",
             "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/refresh-wiki.sh\""
+          },
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/setup-obsidian-wiki.sh\"",
+            "timeout": 120
           },
           {
             "type": "command",
@@ -37,7 +42,7 @@
             "type": "command",
             "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/sync-wiki.sh\" end",
             "timeout": 30,
-            "statusMessage": "Pushing wiki…"
+            "statusMessage": "Pushing wiki\u2026"
           }
         ]
       }
