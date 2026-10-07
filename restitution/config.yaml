@@ -1,0 +1,36 @@
+# Active Restitution: retention store config (document 2, section 3).
+# Read by `restitution <brain/> --store restitution/`. The vault is never written.
+# The vault's own .okignore is merged into `ignore` at load time.
+#
+# Rules are coarse on purpose. Empty lists mean "no constraint".
+# folders: vault-relative prefixes, tags: frontmatter tags,
+# categories: `category` (or legacy `type`).
+include:
+  folders: []
+  tags: []
+  categories: []
+exclude:
+  folders: []
+  tags: []
+  categories: []
+# Meta files, excluded from review (vault contract, point 5).
+# "dir/" matches a directory anywhere in the path; other entries are globs.
+ignore:
+  - index.md
+  - log.md
+  - hot.md
+  - AGENTS.md
+  - README.md
+  - _meta/
+  - _raw/
+  - _archives/
+  - _archived/
+  - _staging/
+# facts | arguments | synthesis
+depth: synthesis
+# Graph edge weights; typed relations count more than plain links.
+edge_weights:
+  link: 1.0
+  depends_on: 2.0
+  see_also: 1.0
+  relationships: 1.5
