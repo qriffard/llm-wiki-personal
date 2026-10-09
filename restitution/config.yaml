@@ -19,6 +19,7 @@ ignore:
   - index.md
   - log.md
   - hot.md
+  - _insights.md
   - AGENTS.md
   - README.md
   - _meta/
