@@ -29,6 +29,10 @@ ignore:
   - _staging/
 # facts | arguments | synthesis
 depth: synthesis
+# Model for probe generation and grading.
+model: claude-opus-5-5
+# Probes per session when no duration is given (about 3 minutes each).
+session_size: 5
 # Graph edge weights; typed relations count more than plain links.
 # Tag edges (notes sharing tags) shape communities and distances only, never
 # anchoring: weight = tag x weighted Jaccard of the two tag sets. Tags carried
