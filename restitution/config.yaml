@@ -30,8 +30,13 @@ ignore:
 # facts | arguments | synthesis
 depth: synthesis
 # Graph edge weights; typed relations count more than plain links.
+# Tag edges (notes sharing tags) shape communities and distances only, never
+# anchoring: weight = tag x weighted Jaccard of the two tag sets. Tags carried
+# by more than tag_max_share of the notes are dropped as too generic.
 edge_weights:
   link: 1.0
   depends_on: 2.0
   see_also: 1.0
   relationships: 1.5
+  tag: 1.0
+  tag_max_share: 0.5
