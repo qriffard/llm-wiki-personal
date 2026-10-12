@@ -6,8 +6,9 @@ Two top-level directories:
   [`Ar9av/obsidian-wiki`](https://github.com/Ar9av/obsidian-wiki) framework.
   Reading (books, articles), listening (podcasts, videos) and notes on personal
   viewpoints. Bilingual French/English.
-- `restitution/` — the active-restitution skill (spaced review of notes from
-  `brain/`). See `restitution/README.md`.
+- `restitution/` — retention state, config and design docs of the
+  active-restitution skill (spaced review of notes from `brain/`). The code
+  lives in `qriffard/active_restitution`. See `restitution/README.md`.
 
 ## Working in `brain/`
 

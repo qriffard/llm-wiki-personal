@@ -15,7 +15,7 @@ The rest of this document is organised as follows. First, we state the constrain
 ## 2. Constraints
 
 - **No employer content.** The vault is pushed to GitHub and read by hosted services, so it must contain no employer document, page derived from internal material, or internal name. This rule is written in `brain/AGENTS.md`, which every framework skill reads before writing.
-- **Private repository.** The vault and the restitution code share one private repository (`qriffard/llm-wiki-personal`), as two top-level directories: `brain/` and `restitution/`. This departs from the initial plan, in which only the vault was private and the restitution code was public; publishing the code now requires splitting `restitution/` into its own repository.
+- **Private data, separate code.** The private repository `qriffard/llm-wiki-personal` holds the data, as two top-level directories: `brain/` (the vault) and `restitution/` (retention state, configuration and design docs). The restitution code lives in its own repository, `qriffard/active_restitution`, and reads both directories by path. Hence, the code can be made public without touching the data.
 - **The skill never writes to `brain/`.** The vault is maintained by the user and by `obsidian-wiki` skills. Retention state lives under `restitution/` (document 2).
 - **Framework is replaceable.** The restitution skill depends only on the vault contract below, not on `obsidian-wiki`. If the framework becomes a burden, any tool that respects the contract can replace it.
 
@@ -58,7 +58,7 @@ Nothing else is required. In particular, no retention field is ever added to a n
    - Page count parity: 35 pages before and after (9 concepts, 14 entities, 11 references, 1 synthesis).
    - Zero broken wikilinks. We can note that the old wiki already had 21 dangling links, pointing to pages that were never created (and one typo, `metooi nceste`); they were turned into plain text and listed in the migration report. One other typo (`justice-pedo-criminalite-france`) was fixed.
    - `obsidian-wiki lint` returns `warn`, with no failure. The warnings are understood: 35 pages without trust fields (`base_confidence`, `lifecycle`), which we chose not to invent, a missing trust ledger, and 6 `snapshot_mismatch` caused by the `.vtt` transcripts (see section 7). `obsidian-wiki doctor` passes.
-   - The contract checker of document 2 (`restitution check <vault>`) does not exist yet.
+   - The contract checker of document 2 (`restitution check brain --store restitution`) passes: 35 notes, no error, no warning.
 6. **Cut over.** The old top-level layout was removed; it remains in the history at `ce821ab`. New captures go to `brain/` through `obsidian-wiki` skills.
 
 In conclusion, the migration fitted in one working session, and step 2 turned out to be empty.
@@ -75,7 +75,7 @@ The remaining questions are the following:
 
 - **Ingestion frequency and runner** (Cowork scheduled task vs. cron on a home machine); daily is a reasonable starting point.
 - **Non-Markdown snapshots.** The framework's lint resolves wikilinks only to `.md` and media files, so `.vtt` (and presumably `.txt`) transcripts cannot be recorded as `snapshots:` without being reported as broken links. They are currently linked from each page's Sources section with a Markdown link. Either the framework accepts these extensions, or transcripts should be converted to `.md` at capture time.
-- **Repository split.** Whether `restitution/` moves to a public repository, and when.
+- **Code visibility.** Whether `qriffard/active_restitution` becomes public, and when.
 - **Trust fields.** Whether the restitution skill should consume `lifecycle` or `base_confidence` once the user reviews pages, or ignore them entirely.
 
-The next step will be document 2: the retention model and the `restitution check` contract checker, validated against `brain/`.
+The next step is document 2: the retention model, whose contract checker and ranking (milestone S1) are implemented in `qriffard/active_restitution`.
